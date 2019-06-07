@@ -1,0 +1,44 @@
+.region-and-cities {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(#d8706b 25%, #AF2938);
+}
+
+.cities-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cities-container .cell {
+    margin: 70px 40px 0;
+    border-radius: 3px;
+}
+
+.select-region {
+    margin: auto;
+    display: flex;
+}
+
+.select-region .label {
+    margin-right: 20px;
+}
+
+.select-region .region-dropdown {
+    margin-right: 20px;
+}
+.region-search {
+    width: 180px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.region-search > input {
+    width: inherit;
+    height: inherit;
+    background-color: lightgray;
+    color: white;
+    border: none;
+    outline: none;
+}
