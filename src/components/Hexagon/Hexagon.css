@@ -1,0 +1,25 @@
+.cell {
+    display: flex;
+    /* align-items: center; */
+}
+
+.hexagon {
+    position: relative;
+    width: 100px; 
+    height: 100px;
+    box-shadow: 2px 1px 18px -4px #000000;
+    margin-right: 10px;
+    background-color: #64C7CC;
+}
+
+.city-name {
+    font-size: 1.8rem;    
+}
+
+.weather-now {
+    font-size: 1.2rem;
+}
+
+.temperature {
+    font-size: 2.5rem;
+}
