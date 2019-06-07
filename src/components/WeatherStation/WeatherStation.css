@@ -1,0 +1,35 @@
+.weather-station {
+    height: 100%;
+    display: flex;
+}
+
+.side-menu-panel {
+    flex-basis: 6%;
+    background-color: #38172f;
+}
+
+.sections-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: green
+}
+
+.section__region-and-cities {
+    height: 280px;
+}
+
+.section__weather-detail {
+    flex: 1;
+    display: flex;
+}
+
+.section__weather-detail .selected-city-now {
+    flex-basis: 25%;
+    background-color: antiquewhite
+}
+
+.section__weather-detail .selected-city-hourly {
+    flex-basis: 75%;
+    background-color: lavenderblush;
+}
