@@ -1,0 +1,33 @@
+.selected-city-card {
+    padding: 40px 20px;
+    height: 100%;
+    background: linear-gradient(#d8706b 25%, #AF2938);
+}
+
+.selected-city-card__city-name {
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+.selected-city-card > .time-now {
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: normal;
+}
+.selected-city-card > .date {
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+.selected-city-card > .day {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: normal;
+    color: #8E283D;
+}
+
+.selected-city-card .weather-status-icon {
+
+}
