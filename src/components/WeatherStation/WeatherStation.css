@@ -31,5 +31,6 @@
 
 .section__weather-detail .selected-city-hourly {
     flex-basis: 75%;
+    padding: 30px 30px 0;
     background-color: lavenderblush;
 }

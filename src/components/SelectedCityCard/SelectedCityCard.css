@@ -1,7 +1,8 @@
 .selected-city-card {
     padding: 40px 20px;
     height: 100%;
-    background: linear-gradient(#d8706b 25%, #AF2938);
+    background-image: url(https://independenttravelcats.com/wp-content/uploads/2019/01/Eiffel-Tower-Dream.jpg);
+    background-size: cover;
 }
 
 .selected-city-card__city-name {
@@ -26,8 +27,4 @@
     text-align: center;
     font-weight: normal;
     color: #8E283D;
-}
-
-.selected-city-card .weather-status-icon {
-
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import './Hexagon.css';
 
-const Hexagon = () => {
+const Hexagon = (props) => {
     return(
         <div className="cell">
             <div className="hexagon"></div>
             <div className="weather-at-glance">
-                <div className="city-name">Paris</div>
+                <div className="city-name">{props.cityName}</div>
                 <div className="weather-now">Sunny</div>
                 <div className="temperature">30c</div>
             </div>
