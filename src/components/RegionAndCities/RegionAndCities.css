@@ -1,44 +1,49 @@
 .region-and-cities {
     display: flex;
     flex-direction: column;
-    height: inherit;
-    width: inherit;
+    height: 100%;
     background: linear-gradient(#d8706b 25%, #AF2938);
+
 }
 
-.cities-container {
+.region-and-cities__cities-container {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.region-and-cities__cities-container .cell {
+    margin: 0 40px;
+}
+
+.region-and-cities__select-region {
+    height: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.cities-container .cell {
-    margin: 70px 40px 0;
-    border-radius: 3px;
+.select-region__label {
+    opacity: 1;
 }
-
-.select-region {
-    margin: auto;
-    display: flex;
+.select-region__region-dropdown {
+    margin: 0 30px;
 }
-
-.select-region .label {
-    margin-right: 20px;
-}
-
-.select-region .region-dropdown {
-    margin-right: 20px;
-}
-.region-search {
-    width: 180px;
-    height: 30px;
-    margin-right: 20px;
-}
-
-.region-search > input {
-    width: inherit;
-    height: inherit;
-    background-color: lightgray;
-    color: white;
-    border: none;
+.select-region__region-search, 
+.select-region__region-search input {
+    background-color: #80808052;
     outline: none;
+    border: none;
+    opacity: 1;
+}
+
+.select-region__region-search input{
+    padding: 10px 20px;
+}
+
+.select-region__region-search input, 
+.select-region__region-search input::placeholder {
+    color: gray;
 }

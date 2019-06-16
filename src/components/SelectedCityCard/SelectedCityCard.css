@@ -1,8 +1,24 @@
 .selected-city-card {
     position: relative;
     height: 100%;
-    background-image: url(https://independenttravelcats.com/wp-content/uploads/2019/01/Eiffel-Tower-Dream.jpg);
-    background-size: cover;
+    padding: 40px 20px;
+}
+
+.selected-city-card > div {
+    height: 100%;
+    width: 100%;
+}
+
+.selected-city-card__bg-img {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.selected-city-card__bg-img img{
+    height: 100%;
+    width: 100%;
 }
 
 .selected-city-card__city-name {
@@ -10,10 +26,13 @@
     text-align: center;
     font-weight: normal;
 }
+
 .selected-city-card__content {
     background-color: #00000061;
-    height: 100%;
-    padding: 40px 20px;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .text-item {
@@ -33,3 +52,4 @@
     font-size: 1.2rem;
     color: #8E283D;
 }
+

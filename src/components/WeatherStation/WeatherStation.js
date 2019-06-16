@@ -20,17 +20,17 @@ class WeatherStation extends React.Component {
     render() {
         return (
             <div className="weather-station">
-                <div className="side-menu-panel"></div>
-                <div className="main-panel sections-container">
-                    <div className="section section__region-and-cities">
+                <div className="weather-station__side-menu-panel"></div>
+                <div className="weather-stations__detail-view detail-view">
+                    <div className="detail-view__region-panel">
                         <RegionAndCities selectedRegion={this.state.selectedRegion}></RegionAndCities>
                     </div>
-                    <div className="section section__weather-detail">
-                        <div className="selected-city-now">
-                            <SelectedCityCard/>
+                    <div className="detail-view__weather-today-panel weather-today">
+                        <div className="weather-today__selected-city">
+                            {<SelectedCityCard/>}
                         </div>
-                        <div className="selected-city-hourly">
-                            <WeatherDetailSection/>
+                        <div className="weather-today__hourly">
+                            {<WeatherDetailSection/>}
                         </div>
                     </div>
                 </div>
