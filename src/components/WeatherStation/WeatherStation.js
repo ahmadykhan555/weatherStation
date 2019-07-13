@@ -3,6 +3,7 @@ import './WeatherStation.css';
 import RegionAndCities from '../RegionAndCities/RegionAndCities';
 import SelectedCityCard from '../SelectedCityCard/SelectedCityCard';
 import WeatherDetailSection from '../WeatherDetailSection/WeatherDetailSection';
+import SideMenu from '../SideMenu/SideMenu';
 
 class WeatherStation extends React.Component {
     state = {
@@ -20,7 +21,9 @@ class WeatherStation extends React.Component {
     render() {
         return (
             <div className="weather-station">
-                <div className="weather-station__side-menu-panel"></div>
+                <div className="weather-station__side-menu-panel">
+                    <SideMenu></SideMenu>
+                </div>
                 <div className="weather-stations__detail-view detail-view">
                     <div className="detail-view__region-panel">
                         <RegionAndCities selectedRegion={this.state.selectedRegion}></RegionAndCities>
