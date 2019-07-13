@@ -5,7 +5,6 @@
 
 .weather-station__side-menu-panel {
     width: 5%;
-    max-width: 90px;
     background-color: #38172f;
     min-width: 95px;
 }
