@@ -7,6 +7,7 @@
     width: 5%;
     max-width: 90px;
     background-color: #38172f;
+    min-width: 95px;
 }
 
 .weather-stations__detail-view {
