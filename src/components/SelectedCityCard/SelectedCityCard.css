@@ -1,7 +1,11 @@
 .selected-city-card {
     position: relative;
     height: 100%;
-    padding: 40px 20px;
+    background: white;
+    color: #8E283D !important;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('https://independenttravelcats.com/wp-content/uploads/2019/01/Eiffel-Tower-Dream.jpg');
 }
 
 .selected-city-card > div {
@@ -9,17 +13,6 @@
     width: 100%;
 }
 
-.selected-city-card__bg-img {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.selected-city-card__bg-img img{
-    height: 100%;
-    width: 100%;
-}
 
 .selected-city-card__city-name {
     font-size: 2.2rem;
@@ -27,17 +20,15 @@
     font-weight: normal;
 }
 
-.selected-city-card__content {
-    background-color: #00000061;
-    z-index: 2;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .text-item {
     text-align: center;
     font-weight: normal;
+}
+
+.selected-city-card__content {
+    padding: 40px 0;
+    max-width: 100%;
+    background-color: #332d2e4d;
 }
 
 .selected-city-card__content > .time-now {
@@ -53,3 +44,21 @@
     color: #8E283D;
 }
 
+.selected-city-card__content > .weather-icon {
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+.selected-city-card__content > .weather-icon svg {
+    height: 90px;
+    width: 90px;
+}
+
+.temperature-now {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.forecast-for-week {
+    margin: 20px 0;
+}

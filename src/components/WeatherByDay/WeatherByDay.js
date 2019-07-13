@@ -1,13 +1,14 @@
 import React from 'react';
 import './WeatherByDay.css';
+import { WiDaySunny } from 'react-icons/wi';
 
 const WeatherByDay = () => {
     return(
-        <div className="weather-by-day">
+        <div className="weather-by-day"> 
             <h5 className="day">Monday</h5>
             <h6 className="high">40</h6>
             <h6 className="low">36</h6>
-            <div className="weather-icon"></div>
+            <div className="weather-icon"><WiDaySunny/></div>
         </div>
     );
 }
