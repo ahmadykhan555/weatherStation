@@ -2,7 +2,6 @@
     position: relative;
     height: 100%;
     background: white;
-    color: #8E283D !important;
     background-size: cover;
     background-position: center center;
     background-image: url('https://independenttravelcats.com/wp-content/uploads/2019/01/Eiffel-Tower-Dream.jpg');
@@ -28,7 +27,7 @@
 .selected-city-card__content {
     padding: 40px 0;
     max-width: 100%;
-    background-color: #332d2e4d;
+    background: linear-gradient(black, transparent);
 }
 
 .selected-city-card__content > .time-now {

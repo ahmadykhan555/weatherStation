@@ -15,12 +15,16 @@
     outline: none;
     cursor: pointer;
     position: relative;
+    color: #dcc5c5;
+}
+
+.side-menu .side-menu-tab.tab-active {
+    color: #c5a807;
 }
 
 .side-menu .side-menu-tab svg {
     height: 25px;
     width: 25px;
-    color: #dcc5c5;
 }
 
 .side-menu-tab.side-menu-tab-location svg {

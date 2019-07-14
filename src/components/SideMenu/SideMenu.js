@@ -5,7 +5,7 @@ import './SideMenu.css';
 const sideMenu = () => {
     return(
         <div className="side-menu">
-            <button className="side-menu-tab side-menu-tab-home">
+            <button className="side-menu-tab side-menu-tab-home tab-active">
                 <FaHome/>
             </button>
             <button className="side-menu-tab side-menu-tab-location">
