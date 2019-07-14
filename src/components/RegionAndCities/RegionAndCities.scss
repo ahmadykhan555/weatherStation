@@ -4,26 +4,25 @@
     height: 100%;
     background: linear-gradient(#d8706b 25%, #AF2938);
 
+    &__cities-container {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+
+        .cell {
+            margin: 0 40px;
+        }
+    }
+    &__select-region {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-.region-and-cities__cities-container {
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-}
-
-.region-and-cities__cities-container .cell {
-    margin: 0 40px;
-}
-
-.region-and-cities__select-region {
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .select-region__label {
     opacity: 1;

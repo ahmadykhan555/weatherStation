@@ -1,5 +1,5 @@
 import React from 'react';
-import './SelectedCityCard.css';
+import './SelectedCityCard.scss';
 import WeatherByDay from '../WeatherByDay/WeatherByDay';
 import { WiDaySunny } from 'react-icons/wi';
 

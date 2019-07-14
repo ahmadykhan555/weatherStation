@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hexagon.css';
+import './Hexagon.scss';
 
 const hexagon = (props) => {
     return(

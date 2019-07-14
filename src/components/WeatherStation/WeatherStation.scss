@@ -1,0 +1,39 @@
+.weather-station {
+    display: flex;
+    height: 100%;
+
+    &__side-menu-panel {
+        width: 5%;
+        background-color: #38172f;
+        min-width: 95px;
+    }
+
+    &__detail-view {
+        flex: 1;
+        position: relative;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+
+        &__region-panel {
+            max-height: 300px;
+            min-height: 260px;
+            height: 30%;
+            background: green;
+        }
+    }
+}
+
+.weather-today {
+    display: flex;
+    flex: 1;
+
+    &__hourly {
+        flex: 1;
+    }
+    &__selected-city {
+        width: 30%;
+        max-width: 375px;
+    }
+}
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import './WeatherStation.css';
+import './WeatherStation.scss';
 import RegionAndCities from '../RegionAndCities/RegionAndCities';
 import SelectedCityCard from '../SelectedCityCard/SelectedCityCard';
 import WeatherDetailSection from '../WeatherDetailSection/WeatherDetailSection';
@@ -24,7 +24,7 @@ class weatherStation extends React.Component {
                 <div className="weather-station__side-menu-panel">
                     <SideMenu></SideMenu>
                 </div>
-                <div className="weather-stations__detail-view detail-view">
+                <div className="weather-station__detail-view detail-view">
                     <div className="detail-view__region-panel">
                         <RegionAndCities selectedRegion={this.state.selectedRegion}></RegionAndCities>
                     </div>

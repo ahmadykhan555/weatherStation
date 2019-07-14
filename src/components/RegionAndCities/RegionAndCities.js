@@ -1,5 +1,5 @@
 import React from 'react';
-import './RegionAndCities.css';
+import './RegionAndCities.scss';
 import Hexagon from '../Hexagon/Hexagon';
 const regionAndCities = (props) => {
     return(
