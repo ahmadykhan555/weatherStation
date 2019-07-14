@@ -15,6 +15,7 @@
 
 .detail-view__region-panel {
     max-height: 300px;
+    min-height: 260px;
     height: 30%;
     background: green;
 }

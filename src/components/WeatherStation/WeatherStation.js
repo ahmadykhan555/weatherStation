@@ -5,7 +5,7 @@ import SelectedCityCard from '../SelectedCityCard/SelectedCityCard';
 import WeatherDetailSection from '../WeatherDetailSection/WeatherDetailSection';
 import SideMenu from '../SideMenu/SideMenu';
 
-class WeatherStation extends React.Component {
+class weatherStation extends React.Component {
     state = {
         selectedRegion: {
             region_name: 'Europe',
@@ -42,4 +42,4 @@ class WeatherStation extends React.Component {
     }
 }
 
-export default WeatherStation;
+export default weatherStation;

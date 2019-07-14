@@ -2,7 +2,7 @@ import React from 'react';
 import './WeatherByDay.css';
 import { WiDaySunny } from 'react-icons/wi';
 
-const WeatherByDay = () => {
+const weatherByDay = () => {
     return(
         <div className="weather-by-day"> 
             <h5 className="day">Monday</h5>
@@ -13,4 +13,4 @@ const WeatherByDay = () => {
     );
 }
 
-export default WeatherByDay;
+export default weatherByDay;

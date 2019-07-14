@@ -3,7 +3,7 @@ import './SelectedCityCard.css';
 import WeatherByDay from '../WeatherByDay/WeatherByDay';
 import { WiDaySunny } from 'react-icons/wi';
 
-const SelectedCityCard = () => {
+const selectedCityCard = () => {
     return(
         <div className="selected-city-card">
             <div className="selected-city-card__content">
@@ -24,4 +24,4 @@ const SelectedCityCard = () => {
     );
 }
 
-export default SelectedCityCard;
+export default selectedCityCard;

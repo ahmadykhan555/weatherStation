@@ -1,7 +1,7 @@
 import React from 'react';
 import './RegionAndCities.css';
 import Hexagon from '../Hexagon/Hexagon';
-const RegionAndCities = (props) => {
+const regionAndCities = (props) => {
     return(
         <div className="region-and-cities">
             <div className="region-and-cities__cities-container">
@@ -18,4 +18,4 @@ const RegionAndCities = (props) => {
     );
 }
 
-export default RegionAndCities;
+export default regionAndCities;
